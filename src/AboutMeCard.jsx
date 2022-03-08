@@ -18,25 +18,25 @@ export const AboutMeCard = () => {
 
                     <div className="overlay__btns">
                         <button aria-label="External gitHub page" className="overlay__btn overlay__btn--transparent">
-                            <a aria-label="External gitHub page" href="https://github.com/ChristopherDalziel" target="_blank">
+                            <a aria-label="External gitHub page" href="https://github.com/ChristopherDalziel" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-github" />
                             </a>
                         </button>
 
                         <button aria-label="External LinkedIn page" className="overlay__btn overlay__btn--transparent">
-                            <a aria-label="External LinkedIn page" href="https://www.linkedin.com/in/christopher-dalziel-129427187/" target="_blank">
+                            <a aria-label="External LinkedIn page" href="https://www.linkedin.com/in/christopher-dalziel-129427187/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-linkedin-in" />
                             </a>
                         </button>
 
                         <button aria-label="External codepen page" className="overlay__btn overlay__btn--transparent">
-                            <a aria-label="External codepen page" href="https://codepen.io/christopherdalziel/pens/public" target="_blank">
+                            <a aria-label="External codepen page" href="https://codepen.io/christopherdalziel/pens/public" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-codepen" />
                             </a>
                         </button>
 
                         <button aria-label="External twitter page" className="overlay__btn overlay__btn--transparent">
-                            <a aria-label="External twitter page" href="https://twitter.com/dalziel_chris" target="_blank">
+                            <a aria-label="External twitter page" href="https://twitter.com/dalziel_chris" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-twitter" />
                             </a>
                         </button>
