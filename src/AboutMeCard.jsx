@@ -1,14 +1,17 @@
 import React from 'react';
+import me from "./logo512.png"
 
 export const AboutMeCard = () => {
     return (
         <div className="overlay-container">
             <div className="overlay">
                 <div className="overlay__inner">
+                    <img src={me} alt="me" className="overlay__picture" />
 
                     <h1 className="overlay__title">
                         Hello. <br /> My name's Chris.
                     </h1>
+
 
                     <p className="overlay__description">
                         I'm a mid-level software engineer with a passion for developing solutions that improve efficiency and effectiveness of organizational success. <br />
