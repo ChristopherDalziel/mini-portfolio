@@ -1,5 +1,5 @@
 import React from 'react';
-import me from "./logo512.png"
+import me from "../Assets/logo512.png"
 
 export const AboutMeCard = () => {
     return (
