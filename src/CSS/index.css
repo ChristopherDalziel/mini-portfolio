@@ -121,7 +121,12 @@ a {
 
 @media only screen and (max-width: 1140px) {
   .overlay {
-    padding: 8rem 4rem;
+    padding: 5rem 2.5rem;
+  }
+
+  .overlay__title,
+  .overlay__description {
+    box-shadow: 0 0 17px 17px rgba(107, 107, 107, 100);
   }
 }
 
@@ -164,6 +169,10 @@ a {
   .overlay__btns {
     background-color: #6B6B6B;
     box-shadow: 0 0 15px 15px rgba(107, 107, 107, 100);
+  }
+
+  .overlay__btn--transparent {
+    font-size: 16px !important;
   }
 
   #tsparticles {
