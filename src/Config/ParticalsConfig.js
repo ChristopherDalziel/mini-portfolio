@@ -1,4 +1,4 @@
-export const particalsConfig = {
+export const particalsConfigDesktop = {
     "background": {
         "color": {
             "value": "#000000"
