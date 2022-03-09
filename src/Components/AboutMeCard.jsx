@@ -14,9 +14,11 @@ export const AboutMeCard = () => {
 
 
                     <p className="overlay__description">
-                        I'm a mid-level software engineer with a passion for developing solutions that improve efficiency and effectiveness of organizational success. <br />
-                        I'm well versed in many software technologies but am currently working in <strong> ReactJS, Kotlin and Java</strong>. <br /><br />
-                        If you'd like to see some of my existing work or get in contact with me checkout the links below.
+                        I am motivated mid-level software engineer with a passion for developing solutions. I focus on improving efficiency and effectiveness resulting in organizational success with long term sustainable results.
+                        <br /><br />
+                        With my experience in the industry, I am well versed in a wide variety of software technologies. I am actively learning and upskilling with my current focus being on implementing solutions using <strong>ReactJS, Kotlin and Java</strong>.
+                        <br /><br />
+                        Check out the links below to view some of my work or to get in contact.
                     </p>
 
                     <div className="overlay__btns">
