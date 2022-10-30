@@ -1,17 +1,15 @@
-import {useEffect, useState} from "react";
-
+import { useEffect, useState } from "react";
 
 export function useHandleResize() {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth < 840) {
-      setIsMobile(true)
+      setIsMobile(true);
     } else {
-      setIsMobile(false)
+      setIsMobile(false);
     }
-  }, [])
+  }, []);
 
-  return isMobile
+  return isMobile;
 }
-

@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", system-ui;;
+  font-family: "Poppins", system-ui;
 }
 
 .overlay-container {
@@ -35,7 +35,7 @@
   font-weight: 700;
   letter-spacing: -0.025em;
   margin-bottom: 2rem;
-  background-color: #6B6B6B;
+  background-color: #6b6b6b;
   box-shadow: 0 0 40px 40px rgba(107, 107, 107, 100);
 }
 
@@ -51,7 +51,7 @@
   font-size: 1rem;
   line-height: 1.75rem;
   margin-bottom: 3rem;
-  background-color: #6B6B6B;
+  background-color: #6b6b6b;
   box-shadow: 0 0 40px 40px rgba(107, 107, 107, 100);
 }
 
@@ -116,8 +116,8 @@ a {
   }
 }
 
-
-@media only screen and (max-width: 1200px) {  }
+@media only screen and (max-width: 1200px) {
+}
 
 @media only screen and (max-width: 1140px) {
   .overlay {
@@ -167,7 +167,7 @@ a {
   }
 
   .overlay__btns {
-    background-color: #6B6B6B;
+    background-color: #6b6b6b;
     box-shadow: 0 0 15px 15px rgba(107, 107, 107, 100);
   }
 
@@ -181,7 +181,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-
   .overlay {
     padding: 1.5rem;
   }
@@ -202,8 +201,8 @@ a {
 }
 
 #tsparticles {
-  position : absolute;
-  width:100%;
-  height:100%;
-  z-index:-1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
