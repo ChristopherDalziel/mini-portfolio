@@ -22,7 +22,8 @@ export const AboutMeCard = () => {
             With my experience in the industry, I am well versed in a wide
             variety of software technologies. I am actively learning and
             upskilling with my current focus being on implementing solutions
-            using <strong>ReactJS, Kotlin and Java</strong>.
+            using{" "}
+            <strong className="overlay__bold">ReactJS, Kotlin and Java</strong>.
             <br />
             <br />
             Check out the links below to view some of my work or to get in
