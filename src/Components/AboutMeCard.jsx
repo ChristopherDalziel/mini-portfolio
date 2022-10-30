@@ -86,6 +86,19 @@ export const AboutMeCard = () => {
                 <i className="fa-brands fa-twitter" />
               </a>
             </button>
+            <button
+              aria-label="External twitter page"
+              className="overlay__btn overlay__btn--transparent"
+            >
+              <a
+                aria-label="External medium blog"
+                href="https://medium.com/@christopherdalziel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-medium" />
+              </a>
+            </button>
           </div>
         </div>
       </div>
