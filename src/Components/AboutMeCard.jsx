@@ -74,20 +74,7 @@ export const AboutMeCard = () => {
             </button>
 
             <button
-              aria-label="External twitter page"
-              className="overlay__btn overlay__btn--transparent"
-            >
-              <a
-                aria-label="External twitter page"
-                href="https://twitter.com/dalziel_chris"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-twitter" />
-              </a>
-            </button>
-            <button
-              aria-label="External twitter page"
+              aria-label="External medium blog page"
               className="overlay__btn overlay__btn--transparent"
             >
               <a
