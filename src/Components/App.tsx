@@ -1,4 +1,3 @@
-import React from "react";
 import Particles from "react-tsparticles";
 import { AboutMeCard } from "./AboutMeCard";
 import {
@@ -9,7 +8,6 @@ import { useHandleResize } from "../CustomHooks/IsMobile";
 
 const App = () => {
   const isMobile = useHandleResize();
-
   const particalConfig = isMobile
     ? particalsConfigMobile
     : particalsConfigDesktop;

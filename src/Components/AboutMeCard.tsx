@@ -1,5 +1,5 @@
-import React from "react";
 import me from "../Assets/me.jpeg";
+import { CodePenButton, GitHubButton, LinkedInButton, MediumButton } from "./SocialMediaLinks";
 
 export const AboutMeCard = () => {
   return (
@@ -13,17 +13,15 @@ export const AboutMeCard = () => {
           </h1>
 
           <p className="overlay__description">
-            I am motivated mid-level software engineer with a passion for
+            I am a motivated mid-level software engineer with a passion for
             developing solutions. I focus on improving efficiency and
             effectiveness resulting in organizational success with long term
             sustainable results.
             <br />
             <br />
-            With my experience in the industry, I am well versed in a wide
-            variety of software technologies. I am actively learning and
-            upskilling with my current focus being on implementing solutions
-            using{" "}
-            <strong className="overlay__bold">ReactJS, Kotlin and Java</strong>.
+            With my industry experience, I possess a diverse skill set encompassing various software technologies, 
+            allowing me to thrive in diverse team environments. Continuously learning and upskilling, 
+            my expertise lies primarily in<strong className="overlay__bold"> ReactJS, Kotlin, Groovy, and Python</strong>.
             <br />
             <br />
             Check out the links below to view some of my work or to get in
@@ -31,61 +29,10 @@ export const AboutMeCard = () => {
           </p>
 
           <div className="overlay__btns">
-            <button
-              aria-label="External gitHub page"
-              className="overlay__btn overlay__btn--transparent"
-            >
-              <a
-                aria-label="External gitHub page"
-                href="https://github.com/ChristopherDalziel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-github" />
-              </a>
-            </button>
-
-            <button
-              aria-label="External LinkedIn page"
-              className="overlay__btn overlay__btn--transparent"
-            >
-              <a
-                aria-label="External LinkedIn page"
-                href="https://www.linkedin.com/in/christopher-dalziel-129427187/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
-            </button>
-
-            <button
-              aria-label="External codepen page"
-              className="overlay__btn overlay__btn--transparent"
-            >
-              <a
-                aria-label="External codepen page"
-                href="https://codepen.io/christopherdalziel/pens/public"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-codepen" />
-              </a>
-            </button>
-
-            <button
-              aria-label="External medium blog page"
-              className="overlay__btn overlay__btn--transparent"
-            >
-              <a
-                aria-label="External medium blog"
-                href="https://medium.com/@christopherdalziel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-medium" />
-              </a>
-            </button>
+            <GitHubButton />
+            <LinkedInButton />
+            <CodePenButton />
+            <MediumButton />
           </div>
         </div>
       </div>
