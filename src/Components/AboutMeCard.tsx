@@ -1,5 +1,5 @@
-import me from "../Assets/me.jpeg";
-import { CodePenButton, GitHubButton, LinkedInButton, MediumButton } from "./SocialMediaLinks";
+import me from "../Assets/me.jpeg"
+import { CodePenButton, GitHubButton, LinkedInButton, MediumButton } from "./SocialMediaLinks"
 
 export const AboutMeCard = () => {
   return (
@@ -37,5 +37,5 @@ export const AboutMeCard = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };

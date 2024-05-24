@@ -1,14 +1,14 @@
-import Particles from "react-tsparticles";
-import { AboutMeCard } from "./AboutMeCard";
+import Particles from "react-tsparticles"
+import { AboutMeCard } from "./AboutMeCard"
 import {
   particalsConfigDesktop,
   particalsConfigMobile,
-} from "../Config/ParticalsConfig";
-import { useHandleResize } from "../CustomHooks/IsMobile";
+} from "../Config/ParticalsConfig"
+import { useIsMobile } from "../CustomHooks/useIsMobile"
 
 const App = () => {
-  const isMobile = useHandleResize();
-  const particalConfig = isMobile
+  const isMobile = useIsMobile()
+  const particalConfig: {} = isMobile
     ? particalsConfigMobile
     : particalsConfigDesktop;
 
@@ -20,4 +20,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App
