@@ -1,9 +1,20 @@
-# Mini Portfolio 2022
+# Mini Portfolio
 
-```
-- npm i
-- npm start
-```
-Not actively looking for work, but wanted to update my footprint.. viola. 
+Not actively looking for work, but wanted to update my footprint.. viola.
+<br /> 
+deployed using netlify
 
-deployed on netlify
+>Install dependencies
+```
+npm i
+```
+
+>Run tests
+```
+npm test
+```
+
+>Run project
+```
+npm start
+```
