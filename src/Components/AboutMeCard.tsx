@@ -13,19 +13,13 @@ export const AboutMeCard = () => {
           </h1>
 
           <p className="overlay__description">
-            I am a motivated mid-level software engineer with a passion for
-            developing solutions. I focus on improving efficiency and
-            effectiveness resulting in organizational success with long term
-            sustainable results.
+            As a motivated mid-level software engineer, I am passionate about developing solutions that enhance organizational efficiency and effectiveness. With 4 years of hands-on experience and a diverse skill set spanning <strong className="overlay__bold">ReactJS, Kotlin, Groovy, and Python</strong>, I thrive in dynamic team environments.
             <br />
             <br />
-            With my industry experience, I possess a diverse skill set encompassing various software technologies, 
-            allowing me to thrive in diverse team environments. Continuously learning and upskilling, 
-            my expertise lies primarily in<strong className="overlay__bold"> ReactJS, Kotlin, Groovy, and Python</strong>.
+            My journey began with an intensive boot camp in Melbourne, reflecting my commitment to continuous learning and adaptation. In my current role, I excel in delivering exceptional outcomes for products and contributing to strategic shifts in technology.  My effective communication skills and problem-solving abilities enable me to contribute towards delivering excellence and innovation.
             <br />
             <br />
-            Check out the links below to view some of my work or to get in
-            contact.
+            I am eager to contribute to driving team culture, technological advancement and pushing the boundaries of innovation, leading to business success.
           </p>
 
           <div className="overlay__btns">
