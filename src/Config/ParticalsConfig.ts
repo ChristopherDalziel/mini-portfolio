@@ -1,7 +1,7 @@
 export const particalsConfigDesktop = {
   background: {
     color: {
-      value: "#000000",
+      value: "#e91d63",
     },
     position: "50% 50%",
     repeat: "no-repeat",
@@ -39,7 +39,7 @@ export const particalsConfigDesktop = {
 export const particalsConfigMobile = {
   background: {
     color: {
-      value: "#000000",
+      value: "#e91d63",
     },
     position: "50% 50%",
     repeat: "no-repeat",
