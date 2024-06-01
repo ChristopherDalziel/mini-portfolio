@@ -19,13 +19,13 @@
   left: 10%;
   width: 100%;
   max-width: 900px;
-  max-height: 640px;
+  max-height: 840px;
 }
 
 .overlay {
   width: 100%;
   max-width: 900px;
-  max-height: 640px;
+  max-height: 840px;
   padding: 4rem 6rem;
   display: flex;
   align-items: center;
