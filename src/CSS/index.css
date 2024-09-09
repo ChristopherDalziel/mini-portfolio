@@ -4,6 +4,11 @@
   cursor: default; 
 }
 
+/* Exclude buttons, a tags and icons from the global rule */
+button, a, i {
+  cursor: pointer;   /* Show pointer (hand) cursor */
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {
   display: none;
@@ -93,7 +98,6 @@
 
 .overlay__btn:hover {
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 .overlay__btn--transparent {
