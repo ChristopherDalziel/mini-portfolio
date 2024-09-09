@@ -1,7 +1,7 @@
 export const particalsConfigDesktop = {
   background: {
     color: {
-      value: "#e91d63",
+      value: "#fff",
     },
     position: "50% 50%",
     repeat: "no-repeat",
@@ -12,6 +12,7 @@ export const particalsConfigDesktop = {
   },
   particles: {
     links: {
+      color: '#da3d63',
       distance: 150,
       enable: true,
     },
@@ -32,14 +33,14 @@ export const particalsConfigDesktop = {
     size: {
       value: 1,
       animation: {},
-    },
+    }
   },
 };
 
 export const particalsConfigMobile = {
   background: {
     color: {
-      value: "#e91d63",
+      value: "#fff",
     },
     position: "50% 50%",
     repeat: "no-repeat",
@@ -49,7 +50,9 @@ export const particalsConfigMobile = {
     zIndex: 1,
   },
   particles: {
+    color: "#000",
     links: {
+      color: '#da3d63',
       distance: 73,
       enable: true,
     },
